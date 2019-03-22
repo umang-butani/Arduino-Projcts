@@ -56,10 +56,11 @@ byte armsUp[8] = {
   0b01010
 };
 
-void setup() {
-   lcd.begin(16, 2);
+void setup() 
+{
+  lcd.begin(16, 2);
   lcd.print("I");
-  lcd.write(5); 
+  lcd.write(5);
   lcd.print("electronics___");
 
   lcd.createChar(1, smiley);
@@ -67,11 +68,10 @@ void setup() {
   lcd.createChar(3, armsDown);
   lcd.createChar(4, armsUp);
   lcd.createChar(5, heart);
-  
+
 }
 
-void loop() {
-  lcd.setCursor(0, 1);
-  lcd.print("I am ");
-  lcd.print("aNiman");
+void loop() 
+{
+  
 }

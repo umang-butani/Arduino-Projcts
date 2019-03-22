@@ -1,1 +1,0 @@
-This folder contains basic exaples for interfacing with 16x2 and arduino.
