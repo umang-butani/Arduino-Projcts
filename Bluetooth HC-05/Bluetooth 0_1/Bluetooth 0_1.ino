@@ -14,11 +14,11 @@ void loop()
     {
       char inChar = (char)Serial.read(); //read the input
       inputString += inChar;        //make a string of the characters coming on serial
-      if (inputString == "a")
+      if (inputString == "1")
       {
         digitalWrite(13, HIGH);
       }
-      else if (inputString == "b")
+      else if (inputString == "0")
       {
         digitalWrite(13, LOW);
       }
