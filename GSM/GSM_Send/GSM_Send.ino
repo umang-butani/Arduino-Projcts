@@ -5,7 +5,7 @@ void setup()
  delay(1000);                  
  Serial.print("AT+CMGF=1\r");    
  delay(1000);
- Serial.print("AT+CMGS=\"+919714548574\"\r");  /*Replace XXXXXXXXXX to 10 digit mobile number &  ZZ to 2 digit country code*/   
+ Serial.print("AT+CMGS=\"+91xxxxxxxxxx\"\r");  /*Replace XXXXXXXXXX to 10 digit mobile number &  ZZ to 2 digit country code*/   
  delay(1000);
  Serial.print("3321");   //The text of the message to be sent.
  delay(1000);
@@ -15,4 +15,3 @@ void setup()
 void loop()
 {
 }
-
