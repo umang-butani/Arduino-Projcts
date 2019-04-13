@@ -23,7 +23,8 @@ struct WifiCreds
 void setup() {
   Serial.begin(115200);
   //EEPROM.begin(513);
-  pinMode(LED,INPUT);
+  //pinMode(LED,INPUT);
+  pinMode(LED,OUTPUT);
   pinMode(D4, INPUT);
   //attachInterrupt(D4, highInterrupt, RISING);
   //digitalWrite(D4, HIGH);
